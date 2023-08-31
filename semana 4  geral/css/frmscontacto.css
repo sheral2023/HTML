@@ -1,3 +1,83 @@
 body{
     background-color: rgb(153, 104, 199);
 }
+header{
+    background-color: rgb(199, 42, 199) !important;
+    border: 2px seashell;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+header img{
+    padding: 20px;
+}
+nav{
+    background-color: rgb(172, 41, 143);
+    border: 2px saddlebrown;
+    border-radius:22px;
+    }
+nav p{
+    text-align: center;
+    color: azure;
+    font-size: 40px;
+}
+section{
+    width: 40%;
+    border: 2px solid orchid;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 10px auto;
+    background: linear-gradient(rgb(136, 39, 133), rgb(254, 254, 255));
+}
+form{
+    background: rgb(196, 124, 196);
+    width: 70%;
+    border-radius: 20px;
+    margin: 10px auto;
+    box-shadow: outset 0 0 8px rgba(0,29,255,0.6);
+}
+fieldset{
+    border-style: none;
+}
+label{
+    font-size: 18px;
+}
+textarea{
+    resize: both;
+    max-height: 100px
+}
+input:focus, textarea:focus{
+    border-color: blueviolet;
+    cursor: pointer;
+    box-shadow: inset 0 0 8px blueviolet;
+    outline: 0 none;
+}
+form button{
+    width: 40%;
+    margin: 10px auto;
+    height: 30px;
+    background: radial-gradient(blueviolet,blueviolet);
+    color: white;
+    border-radius: 15px;
+}
+form button:hover{
+    background-color: lightblue;
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+form input{
+    height: 20px;
+    box-sizing: border-box; 
+    color: black;
+    outline: none;
+    border: 2px solid blueviolet;
+}
+footer{
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
