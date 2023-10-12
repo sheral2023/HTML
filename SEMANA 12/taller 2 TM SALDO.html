@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASAJE TM</title>
+    <!-- link de sitio sweetalert mensajes más elegantes-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <center>
+        <img src="./IMG/WhatsApp Image 2023-10-11 at 8.28.22 PM.jpeg" alt="" width="150" height="150">
+        <h2>INGREO / SALDO TERJETA TRANSMILENIO</h2>
+        <br>
+        <script>
+            let saldo;
+            const tm=2950; // valor pasaje TM 
+            // ENTRADA DE SALDO
+            saldo=parseInt(prompt("ingrese saldo de su tarjeta TM"))
+            // PROCESO
+            if (saldo=tm){
+                swal("estimado usuario","Ingrese al sistema tarnsmilenio","success");
+            }else{
+                swal("Estimado usuario","SALDO INSUFICIENTE","error");
+            }
+        </script>
+    </center>
+</body>
+</html>
